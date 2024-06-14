@@ -11,7 +11,7 @@ const app = express();
 app.use(clog); 
 
 app.use(express.json());
-app.use(expres.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 
 app.use(express.static('public'));
