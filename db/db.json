@@ -1,11 +1,22 @@
 [
     {
         "title": "Test Title",
-        "text": "Test text"
+        "text": "Test text",
+        "id": "f32335cf-0f31-4ea1-b528-0ca7be4a85e1"
     },
     {
         "title": "Does this work?",
         "text": "Did I finish this already?",
-        "note_id": "f32335cf-0f31-4ea1-b528-0ca7be4a85e2"
+        "id": "f32335cf-0f31-4ea1-b528-0ca7be4a85e2"
+    },
+    {
+        "title": "Finish Homework",
+        "text": "Today",
+        "id": "1cfe1e79-00f2-4d1c-8507-57874d9dc2a7"
+    },
+    {
+        "title": "Start new note",
+        "text": "Tomorrow!",
+        "id": "ac71afce-edcb-4eaf-90f7-ae747601cdf5"
     }
 ]
