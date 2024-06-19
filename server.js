@@ -26,15 +26,15 @@ app.get('/notes', (_req, res) =>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// Get route for notes page for specific note id
+// GET route for notes page for specific note id
 app.get('/notes/:notes_id', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// Add 404.html for incorrect addresses - only if extra time on project
-//app.get ('*', (req, res) =>
-//    res.sendFile(path.join(__dirname, '/public/404.html'))
-//);
+// GET route for wildcard to return index.html page
+app.get ('*', (req, res) =>
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+);
 
 app.listen(PORT, () =>
     console.log(`App listening at http://localhost:${PORT}`)
